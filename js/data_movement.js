@@ -1,124 +1,124 @@
 data_movement = [
     {
-        title: "Move",
+        title: "Muoversi",
         icon: "run",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft moved",
-        reference: "PHB, pg. 190.",
+        subtitle: "Costo: 1,5m per 1,5m",
+        description: "Costo movimento: 1,5m per 1,5m di movimento",
+        reference: "PHB-IT, pgg. 190-191.",
         bullets: [
-            "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
-            "You can move through a nonhostile creature's space.",
-            "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
-            "Another creature's space is difficult terrain for you.",
-            "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
+            "Se possiedi più di una velocità, come per esempio la tua velocità base sul terreno e la tua velocità di volare, puoi liberamente passare da una velocità all'altra nel corso del tuo movimento. Ogni volta che cambi velocità, sottrai la distanza di cui ti sei già mosso dalla nuova velocità.",
+            "Puoi muoverti attraverso lo spazio di una creatura non ostile.",
+            "Nel caso di una creatura ostile, invece, puoi muoverti attraverso il suo spazio solo se essa è di due categorie di taglia più grande o più piccola rispetto alla tua.",
+            "Lo spazio di un'altra creatura è considerato terreno difficile per te.",
+            "Che una creatura sia amica o nemica, non è possibile terminare volontariamente il tuo movimento nel suo spazio."
         ]
     },
     {
-        title: "Climb",
+        title: "Scalare",
         icon: "crags",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft climbed",
-        reference: "PHB, pg. 182.",
+        subtitle: "Costo: 3m per 1,5m",
+        description: "Costo movimento: 3m per 1,5m scalati",
+        reference: "PHB-IT, pg. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the climb is difficult"
+            "Potrebbe essere necessario superare una prova di Forza (Atletica) se la scalata è difficile"
         ]
     },
     {
-        title: "Swim",
+        title: "Nuotare",
         icon: "at-sea",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft swum",
-        reference: "PHB, pg. 182.",
+        subtitle: "Costo: 3m per 1,5m",
+        description: "Costo movimento: 3m per 1,5m nuotati",
+        reference: "PHB-IT, pg. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the swim is difficult"
+            "Potrebbe essere necessario superare una prova di Forza (Atletica) se si nuota in acque agitate"
         ]
     },
     {
-        title: "Drop prone",
+        title: "Cadere prono",
         icon: "falling",
-        subtitle: "Cost: 0ft",
-        description: "Movement cost: 0ft (free)",
-        reference: "PHB, pgs. 190-191,292.",
+        subtitle: "Costo: 0m",
+        description: "Costo movimento : 0m (gratuito)",
+        reference: "PHB-IT, pgg. 190-191,292.",
         bullets: [
-            "You can drop prone without using any of your speed",
-            "To move while prone, you must crawl or use magic such as teleportation",
-            "Dropping prone adds the <i>Prone</i> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)"
+            "Puoi buttarti a terra prono senza usare alcuna parte della tua velocità",
+            "Per muoversi rimanendo prono, devi strisciare o usare certe magie come il teletrasporto",
+            "Cadere prono aggiunge la condizione <i>Prono</i> (gli attacchi in mischia contro di te hanno vantaggio, gli attacchi a distanza contro di te hanno svantaggio, i tuoi attacchi hanno svantaggio)"
         ]
     },
     {
-        title: "Crawl",
+        title: "Strisciare",
         icon: "crawl",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft crawled",
-        reference: "PHB, pg. 182.",
+        subtitle: "Costo: 3m per 1,5m",
+        description: "Costo movimento: 3m per 1,5m strisciati",
+        reference: "PHB-IT, pg. 191.",
         bullets: [
 
         ]
     },
     {
-        title: "Stand up",
+        title: "Rialzarsi",
         icon: "strong",
-        subtitle: "Cost: half movement speed",
-        description: "Movement cost: half of your speed",
-        reference: "PHB, pg. 190-191.",
+        subtitle: "Costo: metà velocità movimento",
+        description: "Costo movimento: metà della tua velocità",
+        reference: "PHB-IT, pg. 190-191.",
         bullets: [
-            "You can't stand up if you don't have enough movement left or if your speed is 0"
+            "Non puoi rialzarti se non hai abbastanza velocità di movimento residua o se la tua velocità è 0"
         ]
     },
     {
-        title: "High jump",
+        title: "Salto in alto",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
-        
-        reference: "PHB, pg. 182.",
+        subtitle: "Costo: 1,5m per 1,5m",
+        description: "Costo movimento: 1,5m per 1,5m saltati",
+        reference: "PHB-IT, pg. 182.",
         bullets: [
-            "You leap into the air a number of feet equal to <b>3 + your Strength modifier</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing high jump, you can jump only half that distance.",
-            "You can extend your arms half your height above yourself during the jump.",
-            "In some circumstances, your DM might allow you to make a Strength (Athletics) check to jump higher than you normally can."
+            "Ti sollevi in aria di un'altezza pari a <b>3 + il tuo modificatore di Forza moltiplicato per 30 cm</b>, purché ti sia mosso di almeno 3 metri a piedi immediatamente prima di compiere il salto",
+            "Se compi un salto in alto da fermo, raggiungi soltanto la metà di quell'altezza",
+            "Puoi allungare le braccia fino a metà della tua altezza durante il salto, al fine di raggiungere una distanza pari all'altezza del salto più 1,5 volte la tua altezza",
+            "In alcune circostanze il tuo DM può consentire una prova di Forza (Atletica) per saltare più in alto di quanto potresti normalmente"
         ]
     },
     {
-        title: "Long jump",
+        title: "Salto in lungo",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
-        reference: "PHB, pg. 182.",
+        subtitle: "Costo: 1,5m per 1,5m",
+        description: "Costo movimento: 1,5m per 1,5m saltati",
+        reference: "PHB-IT, pg. 182.",
         bullets: [
-            "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing long jump, you can leap only half that distance",
-            "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check.",
-            "May involve a DC 10 Dexterity (Acrobatics) check to land on your feet in difficult terrain. You land prone on a failed check."
+            "Copri una distanza pari al tuo <b>punteggio di Forza moltiplicato per 30 cm</b>, purché ti sia mosso di almeno 3 metri a piedi immediatamente prima di compiere il salto.",
+            "Se compie un salto in lungo da fermo, copri soltanto la metà di quella distanza",
+            "Potresti essere tenuto a superare una prova di Forza (Atletica) con CD 10 per superare un basso ostacolo (che non superi in altezza un quarto della distanza orizzontale coperta dal salto). Se fallisci la prova, colpisci l'ostacolo",
+            "Se atterri su terreno difficile devi superare una prova di Destrezza (Acrobazia) con CD 10 per atterrare in piedi, altrimenti atterri prono."
         ]
     },
     {
-        title: "Improvise",
+        title: "Improvvisare un'azione",
         icon: "juggler",
-        subtitle: "Any stunt not on this list",
-        description: "Perform any movement or stunt you can imagine",
+        subtitle: "Qualsiasi movimento non presente nella lista",
+        description: "Compi qualsiasi movimento o azione ti possa venire in mente",
+        reference: "PHB-IT, pg. 193.",
         bullets: [
-            "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "Quando descrivi un'azione che non è definita dalle regole, il DM ti comunica se quell'azione è possibile e che tipo di tiro devi effettuare per determinare il successo o il fallimento di quell'azione"
         ]
     },
     {
-        title: "Difficult terrain",
+        title: "Terreno difficile",
         icon: "stone-pile",
-        subtitle: "Cost modifier: +5ft per 5ft",
-        reference: "PHB, pg. 182.",
-        description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
+        subtitle: "Modificatore costo: +1,5m per 1,5m",
+        reference: "PHB-IT, pg. 182.",
+        description: "Muoversi su terreno difficile costa 1,5m addizionali per 1,5m di movimento",
         bullets: [
         ]
     },
     {
-        title: "Grapple move",
+        title: "Muovere una Creatura Afferrata",
         icon: "grab",
-        subtitle: "Modifier: speed halved",
-        description: "Drag or carry the grappled creature with you",
+        subtitle: "Modificatore: velocità dimezzata",
+        description: "Trascina o trasporta la creatura afferrata con te",
         reference: "PHB, pg. 195.",
         bullets: [
-            "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
-            "See the attack action for how to grapple a creature."
+            "Se ti muovi mentre hai afferrato un'altra creatura, la tua velocità è dimezzata a meno che la taglia della creatura non sia inferiore di due o più categorie rispetto alla tua",
+            "Vedi l'azione d'attacco relativa per informazioni su come afferrare una creatura"
         ]
     }
 ]
