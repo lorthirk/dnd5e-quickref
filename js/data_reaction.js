@@ -1,36 +1,36 @@
 data_reaction = [
     {
-        title: "Opportunity attack",
+        title: "Attacco di opportunità",
         icon: "crossed-swords",
-        subtitle: "Enemy leaves your reach",
-        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
-        reference: "PHB, pg. 195.",
+        subtitle: "Qualsiasi nemico esca dalla tua portata",
+        description: "Tutti i partecipanti a un combattimento attendono costantemente l'occasione di colpire un nemico che fugge o gli passa accanto",
+        reference: "PHB-IT, pg. 195.",
         bullets: [
-            "Trigger: enemy creature you can see leaves your reach.",
-            "Make one melee attack against the provoking creature.",
-            "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
-            "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction."
+            "Innesco: una creatura nemica che puoi vedere esce dalla tua portata",
+            "Effettua un attacco in mischia contro la creatura che provoca l'innesco",
+            "L'attacco interrompe il movimento della creatura che provoca l'innesco, visto che avviene giusto prima che la creatura esca dalla tua portata",
+            "Una Creatura non provoca attacco di opportunità quando si teletrasporta o quando qualcuno o qualcosa la muove senza che essa usi il proprio movimento, azione, o reazione."
         ]
     },
     {
-        title: "Readied action",
+        title: "Azione preparata",
         icon: "stopwatch",
-        subtitle: "Part of your Ready action",
-        description: "Execute the reaction specified by your Ready action",
-        reference: "PHB, pg. 193.",
+        subtitle: "Parte della tua azione Prepararsi",
+        description: "Esegui la reazione specificata dalla tua azione Prepararsi",
+        reference: "PHB-IT, pgg. 192-193.",
         bullets: [
-            "Trigger: specified by your <i>Ready</i> action."
+            "Innesco: specificato dalla tua azione <i>Prepararsi</i>"
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Lanciare un incantesimo",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
-        reference: "PHB, pg. 192.",
+        subtitle: "Tempo di lancio di 1 reazione",
+        description: "Lancia un incantesimo con un tempo di lancio di 1 reazione",
+        reference: "PHB-IT, pg. 192.",
         bullets: [
-            "Trigger: specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Innesco: specificato dall'incantesimo",
+            "Per ulteriori dettagli, vedi l'azione <i>Lanciare un incantesimo</i>"
         ]
     }
 ]
